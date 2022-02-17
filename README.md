@@ -1,4 +1,4 @@
-# Astro Starter Kit: Minimal
+# Ehlen Analytics: Dev Team Asheville
 
 ```
 npm init astro -- --template minimal
