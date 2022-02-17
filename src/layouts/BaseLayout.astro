@@ -1,0 +1,19 @@
+---
+// Component imports and setup JavaScript go here!
+import BaseHead from '../components/BaseHead.astro';
+const {title} = Astro.props;
+---
+
+<html lang="en">
+	<head>
+    <BaseHead title={title} />
+		<style>
+			/* scoped CSS styles go here: */
+			/* h1 { ... } */
+		</style>
+	</head>
+
+	<body>
+  <slot />
+	</body>
+</html>
