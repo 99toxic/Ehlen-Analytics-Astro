@@ -1,31 +1,12 @@
 ---
 // Component imports and setup JavaScript go here!
 import BaseLayout from '../layouts/BaseLayout.astro'
-import ReactButton from '../components/react/ReactButton.jsx';
+import HomeHeader from '../components/home/HomeHeader.astro';
 const title = 'Ehlen Analytics';
+
 ---
 
 <BaseLayout title={title}>
-	<div>
-		<h1>Hello World</h1>
-		<p>Lorem ipsum dolor sit amet.</p>
-		<ReactButton client:load>React Button!</ReactButton>
-      <nav>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/about">About</a></li>
-        </ul>
-      </nav>
-	</div>
-</BaseLayout>
+	<HomeHeader />
 
-<style lang="scss">
-div{
-		h1 {
-		color: red;
-	}
-		p {
-			color: blue;
-		}
-}
-</style>
+</BaseLayout>
